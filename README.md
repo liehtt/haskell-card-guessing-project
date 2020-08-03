@@ -17,3 +17,21 @@ ghc -O2 --make Proj1test
 
 ## Usage
 ![](hcgp.gif)
+
+To use the program, run the program with the following:
+```
+./Proj1test
+```
+Then input the cards you want the program to guess:
+```
+./Proj1test 2D KH AS 6C
+```
+In this case, 2D is 2 of Diamonds, KH is King of Hearts, AS is Ace of Spades and 6C is 6 of Clubs.
+
+## License
+
+The project uses [MIT License](<LICENSE>).
+
+## Acknowledgement
+
+Thanks to [Peter Schachte](<https://people.eng.unimelb.edu.au/schachte/>) for supplying the Card.hs and Proj1test.hs.
